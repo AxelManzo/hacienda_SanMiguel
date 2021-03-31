@@ -1,0 +1,316 @@
+@import "../components/variables";
+@import "../components/listas";
+@import "../components/form";
+@import "../components/extend";
+
+/* comunity-reservaciones */
+
+p {
+	margin: 1em 0.5em;
+}
+.espaciado-enter{
+	white-space:pre-line;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+	background-color: nth($colores-principales , 1 ) !important;
+}
+.diseño-flecha-carrousel {
+	font-size: 2em;
+	color: white;
+	text-shadow: -.1em 0 .1em black, .1em 0 .1em black, 0 .1em .1em black, 0 -.1em .1em black;
+}
+img {
+	transition: 0.5s;
+}
+.text-left {
+	text-align: left !important;
+}
+main {
+	text-align: center;
+}
+h1 h2 h3 h4{
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-size: 2em;
+	margin: .5em .5em;
+}
+.title-section-secondary {
+	font-size: 2.5vw;
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.1em;
+	font-style: italic;
+	transition: all 1.5s;
+
+    @media (max-width: 400px){
+        font-size: 6vw;
+    }
+}
+.bottom-0 {
+	bottom: 0;
+	margin: 0 auto;
+}
+.border-top-img {
+	border-top-left-radius: 1em !important;
+	border-top-right-radius: 1em !important;
+}
+.border-bottom-img {
+	border-bottom-left-radius: 1em !important;
+	border-bottom-right-radius: 1em !important;
+}
+.pie-p-img {
+	font-size: large;
+	background-color: nth($colores-principales , 2 );
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+}
+.block-principal {
+	position: absolute;
+	top: 48%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 50em;
+}
+.paragraph-edit-galery {
+	font-size: larger;
+	text-align: center;
+	margin: 1em;
+}
+.block-design-inicio {
+	background-color: rgba(255, 255, 255, 0.705);
+	font-size: larger;
+	border-radius: 1em;
+	border: rgba(255, 231, 217, 0) solid 1em;
+	transition: all 1s ease;
+	&:hover {
+		background-color: rgba(0, 0, 0, 0.6);
+		color: white;
+	}
+    @media (max-width: 1220px){
+            display: none;
+        }
+}
+.p-top-image {
+	font-size: larger;
+	background-color: rgba(0, 0, 0, 0.808);
+	color: white;
+	border-radius: 1.7em;
+	padding: 1em .5em;
+}
+.pGalery {
+	background-color: transparent;
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	position: relative;
+	border-radius: 1.7em;
+	background-image: radial-gradient(circle, rgb(0 0 0 / 60%) 0%, transparent 100%);
+	padding: 1em;
+	font-size: larger;
+}
+.measurement {
+	position: absolute;
+	width: 60%;
+	top: 15%;
+    @media (max-width: 1220px){
+            display: none;
+        }
+}
+.link_descubrirMas {
+	border-radius: 1em !important;
+	border: double black !important;
+	background-color: nth($colores-principales , 1 ) !important;
+	transition: background-color .5s !important;
+	&:hover {
+		background-color: nth($boton, 2) !important;
+	}
+}
+.container-link {
+	position: absolute !important;
+	bottom: 5%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.block-Ver-Completo {
+	position: absolute;
+	bottom: 15%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.block-index-link {
+	@extend %block-link-principales;
+	background-color: nth($boton ,1) !important;
+	&:hover {
+		color: white !important;
+		background-color: black !important;
+	}
+	&:active {
+		box-shadow: 3px 2px 15px 1px#000;
+		font-weight: bold;
+	}
+    @media (max-width: 600px){
+        margin: .5em;
+    }
+}
+.block-index-Mas-Info {
+	@extend %block-link-principales;
+	background-color: white;
+	&:hover {
+		color: white !important;
+		background-color: black !important;
+	}
+	&:active {
+		box-shadow: 3px 2px 15px 1px#000;
+		font-weight: bold;
+	}
+}
+.img3size {
+	transition: all 1s;
+	border-radius: .5em;
+	&:hover {
+		transform: scale(1.04);
+	}
+}
+.p3size {
+	font-size: larger;
+}
+.block {
+	background-color: nth($colores-principales , 2) !important;
+	padding: .6em;
+	margin: .6em .5em;
+	box-shadow: .6em .6em 2em black;
+	border-radius: .5em;
+}
+.imgportada {
+	position: relative;
+	z-index: -10;
+	width: 100%;
+}
+.imggalery {
+	position: relative;
+	width: 90%;
+	height: auto;
+}
+.conteiner-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 1em;
+}
+.design-p-suites {
+	background-color: nth($colores-principales , 3 );
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+}
+.contactanos-item {
+	div {
+		background-color: nth($colores-secundarios , 1 );
+		border-radius: .5em;
+		border: 1px solid;
+		transition: 1s;
+		&:hover {
+			background-color: nth($colores-secundarios , 2);
+			font-size: 1.1em;
+		}
+	}
+}
+.imgsuites {
+	position: relative;
+	width: 100%;
+}
+hr {
+	border: 3px solid black !important;
+	border-radius: 300px/10px !important;
+	margin: 2em !important;
+}
+.titleSecond {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 45%;
+	@media (max-width:1000px){
+		top:52%;
+	}
+}
+.titlesection {
+	color: white;
+	padding: .5em;
+	border-radius: .5em;
+	background-image: radial-gradient(circle, rgb(0 0 0 / 50%) 25%, transparent 100%);
+	text-shadow: black 0.1em 0.1em 0.1em;
+	transition: all 1s;
+	font-size: 3vw;
+
+    @media (max-width: 400px){
+        font-size: 6vw;
+    }
+}
+.card-design {
+	font-size: 2em;
+	background-color: nth($colores-principales , 3);
+	border-radius: 1em;
+	border: 1px solid;
+	display: inline-block;
+	padding: 0.5em 1em;
+}
+.title-suites {
+	background-color: nth($colores-principales,4);
+	padding: auto 1em;
+	width: 10em;
+	margin: .3em auto;
+	border: 1px solid;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
+}
+.p-comida-1-3 {
+	background-color: nth($colores-principales , 3);
+	font-size: larger;
+	padding: auto 1em;
+}
+.p-covid {
+	font-size: larger !important;
+	text-align: left !important;
+}
+.title-acordeon {
+	text-align: left !important;
+	font-size: 0.6em !important;
+	color: black !important;
+	text-decoration: none !important;
+}
+.Appear-Block {
+	display: none;
+	transition: 1.5s;
+    @media (max-width: 1220px) {
+        display: block;
+    }
+}
+.font-size-18{
+	font-size: 18px;
+}
+.img-comunity {
+	position: relative;
+	width: 11vw;
+	border-radius: 10em;
+}
+.item-comunity {
+	background: linear-gradient(to bottom right, nth($colores-principales , 1), nth($colores-principales , 4));
+	border-radius: 1em;
+	border: 1px solid black;
+}
+.escribir-una-opinion {
+	background-color: transparent;
+	font-size: 1.5em !important;
+	margin: 1em;
+}
+.vertical_scroll {
+	width: fit-content;
+	height: 30em;
+	overflow: auto;
+}
+@media (max-width: 1220px) {
+	.link-home-disabled {
+		display: none;
+	}
+}

@@ -1,0 +1,14 @@
+%icon-footer {
+    font-size: 3em;
+	text-shadow: black .05em 0em;
+}
+/* @extend %icon-footer;*/
+%block-link-principales {
+    font-size: 1.5em !important;
+    display: inline-block !important;
+    border: 1px solid black !important;
+    border-radius: .4em !important;
+    padding: 0 .5em !important;
+    transition: background-color .5s !important;
+    margin:.5em 1em;
+}

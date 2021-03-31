@@ -1,0 +1,1249 @@
+@charset "UTF-8";
+/*nth($colores-principales, 2)*/
+/* inputs */
+input[type=email] {
+  background-color: rgba(255, 255, 255, 0.527);
+}
+
+textarea {
+  font-size: 1em;
+  font-family: "Nunito", sans-serif;
+  background-color: rgba(255, 255, 255, 0.616);
+  border-radius: 0.5em;
+}
+textarea:focus {
+  background-color: white;
+}
+
+input {
+  background: rgba(255, 255, 255, 0.425);
+  font-size: 1.25em;
+  margin: 2px;
+}
+input:hover {
+  background: #494949;
+  color: black;
+}
+input:focus {
+  background: white;
+}
+
+/* formulario tarjeta*/
+.credit-card-div span {
+  padding-top: 10px;
+}
+.credit-card-div img {
+  padding-top: 30px;
+}
+.credit-card-div .small-font {
+  font-size: 9px;
+}
+.credit-card-div .pad-adjust {
+  padding-top: 10px;
+}
+
+/*formulario contacto*/
+.header {
+  font-family: "Nunito", sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  text-shadow: 0.01em 0 0.01em black, 0 0.01em 0.1em black;
+}
+
+.bg-blue-light {
+  background-color: #74b3b2b0;
+}
+
+.bigicon {
+  font-size: 3.5em;
+}
+
+/*opinion*/
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+p input label :hover {
+  color: orange;
+}
+
+input[type=radio]:checked ~ label {
+  color: orange;
+}
+
+.iconYoutube, .iconFacebook, .iconTwitter, .iconInsta {
+  font-size: 3em;
+  text-shadow: black 0.05em 0em;
+}
+
+/* @extend %icon-footer;*/
+.block-index-Mas-Info, .block-index-link {
+  font-size: 1.5em !important;
+  display: inline-block !important;
+  border: 1px solid black !important;
+  border-radius: 0.4em !important;
+  padding: 0 0.5em !important;
+  transition: background-color 0.5s !important;
+  margin: 0.5em 1em;
+}
+
+/* comunity-reservaciones */
+p {
+  margin: 1em 0.5em;
+}
+
+.espaciado-enter {
+  white-space: pre-line;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #FFE7D9 !important;
+}
+
+.diseño-flecha-carrousel {
+  font-size: 2em;
+  color: white;
+  text-shadow: -0.1em 0 0.1em black, 0.1em 0 0.1em black, 0 0.1em 0.1em black, 0 -0.1em 0.1em black;
+}
+
+img {
+  transition: 0.5s;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+main {
+  text-align: center;
+}
+
+h1 h2 h3 h4 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 2em;
+  margin: 0.5em 0.5em;
+}
+
+.title-section-secondary {
+  font-size: 2.5vw;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.1em;
+  font-style: italic;
+  transition: all 1.5s;
+}
+@media (max-width: 400px) {
+  .title-section-secondary {
+    font-size: 6vw;
+  }
+}
+
+.bottom-0 {
+  bottom: 0;
+  margin: 0 auto;
+}
+
+.border-top-img {
+  border-top-left-radius: 1em !important;
+  border-top-right-radius: 1em !important;
+}
+
+.border-bottom-img {
+  border-bottom-left-radius: 1em !important;
+  border-bottom-right-radius: 1em !important;
+}
+
+.pie-p-img {
+  font-size: large;
+  background-color: #ffc6a6;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+.block-principal {
+  position: absolute;
+  top: 48%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 50em;
+}
+
+.paragraph-edit-galery {
+  font-size: larger;
+  text-align: center;
+  margin: 1em;
+}
+
+.block-design-inicio {
+  background-color: rgba(255, 255, 255, 0.705);
+  font-size: larger;
+  border-radius: 1em;
+  border: rgba(255, 231, 217, 0) solid 1em;
+  transition: all 1s ease;
+}
+.block-design-inicio:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+@media (max-width: 1220px) {
+  .block-design-inicio {
+    display: none;
+  }
+}
+
+.p-top-image {
+  font-size: larger;
+  background-color: rgba(0, 0, 0, 0.808);
+  color: white;
+  border-radius: 1.7em;
+  padding: 1em 0.5em;
+}
+
+.pGalery {
+  background-color: transparent;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  position: relative;
+  border-radius: 1.7em;
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.6) 0%, transparent 100%);
+  padding: 1em;
+  font-size: larger;
+}
+
+.measurement {
+  position: absolute;
+  width: 60%;
+  top: 15%;
+}
+@media (max-width: 1220px) {
+  .measurement {
+    display: none;
+  }
+}
+
+.link_descubrirMas {
+  border-radius: 1em !important;
+  border: double black !important;
+  background-color: #FFE7D9 !important;
+  transition: background-color 0.5s !important;
+}
+.link_descubrirMas:hover {
+  background-color: #FFD080 !important;
+}
+
+.container-link {
+  position: absolute !important;
+  bottom: 5%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.block-Ver-Completo {
+  position: absolute;
+  bottom: 15%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.block-index-link {
+  background-color: #ffb3aba8 !important;
+}
+.block-index-link:hover {
+  color: white !important;
+  background-color: black !important;
+}
+.block-index-link:active {
+  box-shadow: 3px 2px 15px 1px #000;
+  font-weight: bold;
+}
+@media (max-width: 600px) {
+  .block-index-link {
+    margin: 0.5em;
+  }
+}
+
+.block-index-Mas-Info {
+  background-color: white;
+}
+.block-index-Mas-Info:hover {
+  color: white !important;
+  background-color: black !important;
+}
+.block-index-Mas-Info:active {
+  box-shadow: 3px 2px 15px 1px #000;
+  font-weight: bold;
+}
+
+.img3size {
+  transition: all 1s;
+  border-radius: 0.5em;
+}
+.img3size:hover {
+  transform: scale(1.04);
+}
+
+.p3size {
+  font-size: larger;
+}
+
+.block {
+  background-color: #ffc6a6 !important;
+  padding: 0.6em;
+  margin: 0.6em 0.5em;
+  box-shadow: 0.6em 0.6em 2em black;
+  border-radius: 0.5em;
+}
+
+.imgportada {
+  position: relative;
+  z-index: -10;
+  width: 100%;
+}
+
+.imggalery {
+  position: relative;
+  width: 90%;
+  height: auto;
+}
+
+.conteiner-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1em;
+}
+
+.design-p-suites {
+  background-color: #f5b893;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+}
+
+.contactanos-item div {
+  background-color: #869BB3;
+  border-radius: 0.5em;
+  border: 1px solid;
+  transition: 1s;
+}
+.contactanos-item div:hover {
+  background-color: #CCFFE2;
+  font-size: 1.1em;
+}
+
+.imgsuites {
+  position: relative;
+  width: 100%;
+}
+
+hr {
+  border: 3px solid black !important;
+  border-radius: 300px/10px !important;
+  margin: 2em !important;
+}
+
+.titleSecond {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 45%;
+}
+@media (max-width: 1000px) {
+  .titleSecond {
+    top: 52%;
+  }
+}
+
+.titlesection {
+  color: white;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5) 25%, transparent 100%);
+  text-shadow: black 0.1em 0.1em 0.1em;
+  transition: all 1s;
+  font-size: 3vw;
+}
+@media (max-width: 400px) {
+  .titlesection {
+    font-size: 6vw;
+  }
+}
+
+.card-design {
+  font-size: 2em;
+  background-color: #f5b893;
+  border-radius: 1em;
+  border: 1px solid;
+  display: inline-block;
+  padding: 0.5em 1em;
+}
+
+.title-suites {
+  background-color: #F5A97A;
+  padding: auto 1em;
+  width: 10em;
+  margin: 0.3em auto;
+  border: 1px solid;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+.p-comida-1-3 {
+  background-color: #f5b893;
+  font-size: larger;
+  padding: auto 1em;
+}
+
+.p-covid {
+  font-size: larger !important;
+  text-align: left !important;
+}
+
+.title-acordeon {
+  text-align: left !important;
+  font-size: 0.6em !important;
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.Appear-Block {
+  display: none;
+  transition: 1.5s;
+}
+@media (max-width: 1220px) {
+  .Appear-Block {
+    display: block;
+  }
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.img-comunity {
+  position: relative;
+  width: 11vw;
+  border-radius: 10em;
+}
+
+.item-comunity {
+  background: linear-gradient(to bottom right, #FFE7D9, #F5A97A);
+  border-radius: 1em;
+  border: 1px solid black;
+}
+
+.escribir-una-opinion {
+  background-color: transparent;
+  font-size: 1.5em !important;
+  margin: 1em;
+}
+
+.vertical_scroll {
+  width: fit-content;
+  height: 30em;
+  overflow: auto;
+}
+
+@media (max-width: 1220px) {
+  .link-home-disabled {
+    display: none;
+  }
+}
+/*nth($colores-principales, 2)*/
+/* inputs */
+input[type=email] {
+  background-color: rgba(255, 255, 255, 0.527);
+}
+
+textarea {
+  font-size: 1em;
+  font-family: "Nunito", sans-serif;
+  background-color: rgba(255, 255, 255, 0.616);
+  border-radius: 0.5em;
+}
+textarea:focus {
+  background-color: white;
+}
+
+input {
+  background: rgba(255, 255, 255, 0.425);
+  font-size: 1.25em;
+  margin: 2px;
+}
+input:hover {
+  background: #494949;
+  color: black;
+}
+input:focus {
+  background: white;
+}
+
+/* formulario tarjeta*/
+.credit-card-div span {
+  padding-top: 10px;
+}
+.credit-card-div img {
+  padding-top: 30px;
+}
+.credit-card-div .small-font {
+  font-size: 9px;
+}
+.credit-card-div .pad-adjust {
+  padding-top: 10px;
+}
+
+/*formulario contacto*/
+.header {
+  font-family: "Nunito", sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  text-shadow: 0.01em 0 0.01em black, 0 0.01em 0.1em black;
+}
+
+.bg-blue-light {
+  background-color: #74b3b2b0;
+}
+
+.bigicon {
+  font-size: 3.5em;
+}
+
+/*opinion*/
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+p input label :hover {
+  color: orange;
+}
+
+input[type=radio]:checked ~ label {
+  color: orange;
+}
+
+.iconYoutube, .iconFacebook, .iconTwitter, .iconInsta {
+  font-size: 3em;
+  text-shadow: black 0.05em 0em;
+}
+
+/* @extend %icon-footer;*/
+.block-index-link, .block-index-Mas-Info {
+  font-size: 1.5em !important;
+  display: inline-block !important;
+  border: 1px solid black !important;
+  border-radius: 0.4em !important;
+  padding: 0 0.5em !important;
+  transition: background-color 0.5s !important;
+  margin: 0.5em 1em;
+}
+
+.logonav {
+  position: relative;
+  text-align: center;
+  margin: -0.3em 1em;
+  height: 2.5em;
+  width: 2em;
+}
+
+.bg-dark-transparent {
+  background: linear-gradient(black, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8), rgba(64, 58, 54, 0.6));
+}
+
+.nav-link:hover {
+  color: #ffc6a6 !important;
+  text-decoration: line-through #ffc6a6 !important;
+}
+
+.navbar-brand {
+  margin-left: 0.5em;
+}
+
+.index-menu {
+  z-index: 20;
+}
+
+.dropdown-menu {
+  background-color: #f8ba94 !important;
+}
+
+/*nth($colores-principales, 2)*/
+/* inputs */
+input[type=email] {
+  background-color: rgba(255, 255, 255, 0.527);
+}
+
+textarea {
+  font-size: 1em;
+  font-family: "Nunito", sans-serif;
+  background-color: rgba(255, 255, 255, 0.616);
+  border-radius: 0.5em;
+}
+textarea:focus {
+  background-color: white;
+}
+
+input {
+  background: rgba(255, 255, 255, 0.425);
+  font-size: 1.25em;
+  margin: 2px;
+}
+input:hover {
+  background: #494949;
+  color: black;
+}
+input:focus {
+  background: white;
+}
+
+/* formulario tarjeta*/
+.credit-card-div span {
+  padding-top: 10px;
+}
+.credit-card-div img {
+  padding-top: 30px;
+}
+.credit-card-div .small-font {
+  font-size: 9px;
+}
+.credit-card-div .pad-adjust {
+  padding-top: 10px;
+}
+
+/*formulario contacto*/
+.header {
+  font-family: "Nunito", sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  text-shadow: 0.01em 0 0.01em black, 0 0.01em 0.1em black;
+}
+
+.bg-blue-light {
+  background-color: #74b3b2b0;
+}
+
+.bigicon {
+  font-size: 3.5em;
+}
+
+/*opinion*/
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+p input label :hover {
+  color: orange;
+}
+
+input[type=radio]:checked ~ label {
+  color: orange;
+}
+
+.iconYoutube, .iconFacebook, .iconTwitter, .iconInsta {
+  font-size: 3em;
+  text-shadow: black 0.05em 0em;
+}
+
+/* @extend %icon-footer;*/
+.block-index-link, .block-index-Mas-Info {
+  font-size: 1.5em !important;
+  display: inline-block !important;
+  border: 1px solid black !important;
+  border-radius: 0.4em !important;
+  padding: 0 0.5em !important;
+  transition: background-color 0.5s !important;
+  margin: 0.5em 1em;
+}
+
+footer {
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), #aa7658);
+}
+
+.container-flex-footer {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
+
+.menu {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 600px) {
+  .menu {
+    width: 250px;
+  }
+}
+
+.iconInsta {
+  color: tomato;
+}
+
+.iconTwitter {
+  color: #5bd0f7;
+}
+
+.iconFacebook {
+  color: blue;
+}
+
+.iconYoutube {
+  color: red;
+}
+
+.h6-conectar {
+  position: relative;
+  margin: auto 0;
+}
+
+/*nth($colores-principales, 2)*/
+/* inputs */
+input[type=email] {
+  background-color: rgba(255, 255, 255, 0.527);
+}
+
+textarea {
+  font-size: 1em;
+  font-family: "Nunito", sans-serif;
+  background-color: rgba(255, 255, 255, 0.616);
+  border-radius: 0.5em;
+}
+textarea:focus {
+  background-color: white;
+}
+
+input {
+  background: rgba(255, 255, 255, 0.425);
+  font-size: 1.25em;
+  margin: 2px;
+}
+input:hover {
+  background: #494949;
+  color: black;
+}
+input:focus {
+  background: white;
+}
+
+/* formulario tarjeta*/
+.credit-card-div span {
+  padding-top: 10px;
+}
+.credit-card-div img {
+  padding-top: 30px;
+}
+.credit-card-div .small-font {
+  font-size: 9px;
+}
+.credit-card-div .pad-adjust {
+  padding-top: 10px;
+}
+
+/*formulario contacto*/
+.header {
+  font-family: "Nunito", sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  text-shadow: 0.01em 0 0.01em black, 0 0.01em 0.1em black;
+}
+
+.bg-blue-light {
+  background-color: #74b3b2b0;
+}
+
+.bigicon {
+  font-size: 3.5em;
+}
+
+/*opinion*/
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+p input label :hover {
+  color: orange;
+}
+
+input[type=radio]:checked ~ label {
+  color: orange;
+}
+
+.iconInsta, .iconTwitter, .iconFacebook, .iconYoutube {
+  font-size: 3em;
+  text-shadow: black 0.05em 0em;
+}
+
+/* @extend %icon-footer;*/
+.block-index-link, .block-index-Mas-Info {
+  font-size: 1.5em !important;
+  display: inline-block !important;
+  border: 1px solid black !important;
+  border-radius: 0.4em !important;
+  padding: 0 0.5em !important;
+  transition: background-color 0.5s !important;
+  margin: 0.5em 1em;
+}
+
+.coverPageTitle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 15%;
+}
+@media (max-width: 1000px) {
+  .coverPageTitle {
+    top: 22%;
+  }
+}
+
+.coverPageLogo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 8%;
+}
+@media (max-width: 1000px) {
+  .coverPageLogo {
+    top: 15%;
+  }
+}
+
+.title1 {
+  font-size: 3em;
+  background-color: transparent;
+  color: white;
+  text-shadow: 0.1em 0 0.1em black, 0 0.1em 0.1em black;
+  margin: 0em;
+  transition: all 0.5s;
+  font-size: 4vw;
+}
+@media (max-width: 400px) {
+  .title1 {
+    font-size: 6vw;
+  }
+}
+
+.sub {
+  font-family: "Cormorant Unicase", serif;
+  font-size: 5vw;
+  color: #DE927A;
+  text-shadow: -0.1em 0 0.1em black, 0.1em 0 0.1em black, 0 0.05em 0.1em black, 0 -0.05em 0.1em black;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+@media (max-width: 400px) {
+  .sub {
+    font-size: 6vw;
+  }
+}
+
+.fontItalic {
+  font-family: "Nunito", sans-serif;
+  font-style: italic;
+  font-size: 0.7em;
+  display: block;
+}
+
+.logoBehind {
+  z-index: -1;
+  opacity: 0.7;
+}
+
+.logoCentral {
+  background-image: radial-gradient(circle, rgba(100, 100, 100, 0.5) 5%, transparent 70%);
+  transition: all 0.5s ease;
+  width: 16vw;
+}
+@media (max-width: 400px) {
+  .logoCentral {
+    width: 20vw;
+  }
+}
+
+.float {
+  position: fixed;
+  width: 2em;
+  height: 2em;
+  bottom: 1em;
+  right: 1em;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 2em;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 0.5em;
+}
+
+.iconWhatsapp {
+  color: green;
+  font-size: 4em;
+}
+
+.iconInsta, .iconTwitter, .iconFacebook, .iconYoutube {
+  font-size: 3em;
+  text-shadow: black 0.05em 0em;
+}
+
+/* @extend %icon-footer;*/
+.block-index-link, .block-index-Mas-Info {
+  font-size: 1.5em !important;
+  display: inline-block !important;
+  border: 1px solid black !important;
+  border-radius: 0.4em !important;
+  padding: 0 0.5em !important;
+  transition: background-color 0.5s !important;
+  margin: 0.5em 1em;
+}
+
+/*nth($colores-principales, 2)*/
+/* inputs */
+input[type=email] {
+  background-color: rgba(255, 255, 255, 0.527);
+}
+
+textarea {
+  font-size: 1em;
+  font-family: "Nunito", sans-serif;
+  background-color: rgba(255, 255, 255, 0.616);
+  border-radius: 0.5em;
+}
+textarea:focus {
+  background-color: white;
+}
+
+input {
+  background: rgba(255, 255, 255, 0.425);
+  font-size: 1.25em;
+  margin: 2px;
+}
+input:hover {
+  background: #494949;
+  color: black;
+}
+input:focus {
+  background: white;
+}
+
+/* formulario tarjeta*/
+.credit-card-div span {
+  padding-top: 10px;
+}
+.credit-card-div img {
+  padding-top: 30px;
+}
+.credit-card-div .small-font {
+  font-size: 9px;
+}
+.credit-card-div .pad-adjust {
+  padding-top: 10px;
+}
+
+/*formulario contacto*/
+.header {
+  font-family: "Nunito", sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  text-shadow: 0.01em 0 0.01em black, 0 0.01em 0.1em black;
+}
+
+.bg-blue-light {
+  background-color: #74b3b2b0;
+}
+
+.bigicon {
+  font-size: 3.5em;
+}
+
+/*opinion*/
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+p input label :hover {
+  color: orange;
+}
+
+input[type=radio]:checked ~ label {
+  color: orange;
+}
+
+/*nth($colores-principales, 2)*/
+/* inputs */
+input[type=email] {
+  background-color: rgba(255, 255, 255, 0.527);
+}
+
+textarea {
+  font-size: 1em;
+  font-family: "Nunito", sans-serif;
+  background-color: rgba(255, 255, 255, 0.616);
+  border-radius: 0.5em;
+}
+textarea:focus {
+  background-color: white;
+}
+
+input {
+  background: rgba(255, 255, 255, 0.425);
+  font-size: 1.25em;
+  margin: 2px;
+}
+input:hover {
+  background: #494949;
+  color: black;
+}
+input:focus {
+  background: white;
+}
+
+/* formulario tarjeta*/
+.credit-card-div span {
+  padding-top: 10px;
+}
+.credit-card-div img {
+  padding-top: 30px;
+}
+.credit-card-div .small-font {
+  font-size: 9px;
+}
+.credit-card-div .pad-adjust {
+  padding-top: 10px;
+}
+
+/*formulario contacto*/
+.header {
+  font-family: "Nunito", sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  text-shadow: 0.01em 0 0.01em black, 0 0.01em 0.1em black;
+}
+
+.bg-blue-light {
+  background-color: #74b3b2b0;
+}
+
+.bigicon {
+  font-size: 3.5em;
+}
+
+/*opinion*/
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+p input label :hover {
+  color: orange;
+}
+
+input[type=radio]:checked ~ label {
+  color: orange;
+}
+
+.iconInsta, .iconTwitter, .iconFacebook, .iconYoutube {
+  font-size: 3em;
+  text-shadow: black 0.05em 0em;
+}
+
+/* @extend %icon-footer;*/
+.block-index-link, .block-index-Mas-Info {
+  font-size: 1.5em !important;
+  display: inline-block !important;
+  border: 1px solid black !important;
+  border-radius: 0.4em !important;
+  padding: 0 0.5em !important;
+  transition: background-color 0.5s !important;
+  margin: 0.5em 1em;
+}
+
+html, .scroll {
+  overflow: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  --scrollbarBG: #CFD8DC;
+  --thumbBG: #005580;
+}
+
+body::-webkit-scrollbar, .scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+body, .scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-track, .scroll::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-thumb, .scroll::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6b005d;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=style.css.map */

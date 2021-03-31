@@ -1,0 +1,42 @@
+@import "../components/variables";
+@import "../components/listas";
+@import "../components/form";
+@import "../components/extend";
+
+
+html, .scroll{
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    --scrollbarBG: #CFD8DC;
+    --thumbBG: #005580;
+}
+
+  body::-webkit-scrollbar, .scroll::-webkit-scrollbar {
+    width: 10px;
+  }
+  body, .scroll{
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-track, .scroll::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-thumb, .scroll::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+  }
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(107, 0, 93);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: black;
+}

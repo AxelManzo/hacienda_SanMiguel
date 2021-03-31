@@ -1,0 +1,30 @@
+@import "../components/variables";
+@import "../components/listas";
+@import "../components/form";
+@import "../components/extend";
+
+.logonav {
+	position: relative;
+	text-align: center;
+	margin: -.3em 1em;
+	height: 2.5em;
+	width: 2em;
+}
+.bg-dark-transparent {
+	background: linear-gradient( black, rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.80),rgba(64, 58, 54, 0.6));
+}
+.nav-link {
+	&:hover {
+		color: nth($colores-principales , 2 ) !important;
+		text-decoration: line-through nth($colores-principales , 2 ) !important;
+	}
+}
+.navbar-brand {
+	margin-left: .5em;
+}
+.index-menu {
+	z-index: 20;
+}
+.dropdown-menu {
+	background-color: #f8ba94 !important;
+}

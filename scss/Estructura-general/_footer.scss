@@ -1,0 +1,42 @@
+@import "../components/variables";
+@import "../components/listas";
+@import "../components/form";
+@import "../components/extend";
+
+footer {
+	background-image:$bg-footer;
+}
+.container-flex-footer {
+	display: flex;
+	justify-content: center;
+	margin: 1em;
+}
+.menu {
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+
+    @media (max-width: 600px){
+        width: 250px;
+    }
+}
+.iconInsta {
+	@extend %icon-footer;
+	color: tomato;
+}
+.iconTwitter {
+	@extend %icon-footer;
+	color: rgb(91, 208, 247);
+}
+.iconFacebook {
+	@extend %icon-footer;
+	color: blue;
+}
+.iconYoutube {
+	@extend %icon-footer;
+	color: red;
+}
+.h6-conectar {
+	position: relative;
+	margin: auto 0;
+}

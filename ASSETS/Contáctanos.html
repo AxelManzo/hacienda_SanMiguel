@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacienda San Miguel® </title>
+    <!--style:  font-family: 'Nunito', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap"
+        rel="stylesheet">
+    <!--style:  font-family: 'Open Sans', sans-serif-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <!--style: font-family: 'Cormorant Unicase', serif; -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@600&display=swap" rel="stylesheet">
+    <!--style Css -->
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../app.js">
+    <!-- icon -->
+    <link rel="icon" href="../IMG/logo.ico">
+    <!-- FONT AWESOME ICON -->
+    <script src="https://kit.fontawesome.com/c0567512e5.js" crossorigin="anonymous"></script>
+    <!-- icon whatsapp -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=541155635980&text=Hola quisiera saber más sobre la estadía y los costos."
+        class="float" target="_blank"><i class="fa fa-whatsapp my-float"></i></a>
+    <!-- animate__animated -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- AOS animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark-transparent ">
+            <a class="navbar-brand" href="#">
+                <img src="../IMG/logopng.png" width="25" height="30" class="d-inline-block align-top"
+                    alt="logo central de la hacienda San Miguel®">
+                San Miguel®
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse  index-menu" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-5">
+                    <li class="nav-item active px-3">
+                        <a class="nav-link" href="../index.html"><i class="fas fa-home"></i> Inicio <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown px-3">
+                        <a class="nav-link dropdown-toggle" href="galeria.html" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+                                class="fas fa-camera"></i></i> Multimedia
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="galeria.html"><i class="far fa-images"></i> Galeria</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="COMIDA.html"><i class="fas fa-utensils"></i> Comida</i></a>
+                            <a class="dropdown-item" href="RECREACIÓN.html"><i class="fas fa-child"></i> Recreación</a>
+                        </div>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="COVID-19.html"><i class="fas fa-lungs-virus"></i> COVID-19</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="Contáctanos.html" tabindex="-1" aria-disabled="true"><i
+                                class="fas fa-shopping-cart"></i> Reservas</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <section class="position-relative">
+                <div class="coverPageLogo">
+                    <div class="logoBehind animate__animated animate__zoomIn animate__delay-.5s">
+                        <img src="../IMG/logo.png" class="logoCentral">
+                    </div>
+                </div>
+                <div class="coverPageTitle">
+                    <h1 class="title1 animate__animated animate__backInDown animate__delay-1s"> <span
+                            class="fontItalic">Hacienda de</span> San Miguel<sup>®</sup></h1>
+                    <h2 class="sub animate__animated animate__fadeInUp animate__delay-1s ">Para que te escapes de todo
+                    </h2>
+                </div>
+                <img src="../IMG/img-portada/reservaciones-1.jpg" class="imgportada"
+                    alt="foto de la piscina de hacienda">
+                <div class="titleSecond">
+                    <h1 class="titlesection" data-aos="flip-up">RESERVACIONES</h1>
+                </div>
+            </section>
+        </section>
+        <div class="container my-4">
+            <h2>Complete el siguiente formulario para realizar su consulta o reserva.
+            </h2>
+        </div>
+        <div class="container">
+            <div class="row rounded bg-blue-light">
+                <div class="col-md-12">
+                    <div class="well well-sm py-3">
+                        <form method="post">
+                            <fieldset>
+                                <legend class="header ">Contacto</legend>
+
+                                <div class="row">
+                                    <div class="form-group text-left col-lg-6">
+                                        <span class="mx-3"><i class="fa fa-user bigicon"></i> Nombre</span>
+                                        <div>
+                                            <input id="fname" name="name" type="text" required placeholder="Nombres"
+                                                class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group text-left col-lg-6">
+                                        <span class="mx-3"><i class="fa fa-user bigicon"></i> Apellido</span>
+                                        <div>
+                                            <input id="lname" name="name" type="text" required placeholder="Apellido"
+                                                class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group text-left">
+                                    <span class="mx-3"><i class="fa fa-envelope-o bigicon"></i> Email</span>
+                                    <div class="col">
+                                        <input id="email" name="email" type="text" required placeholder="correo"
+                                            class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="form-group text-left col-lg-6">
+                                        <span class="mx-3"><i class="fa fa-phone-square bigicon"></i> Teléfono</span>
+                                        <div class="col">
+                                            <input id="phone" name="phone" type="text" placeholder="Numero"
+                                                class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group text-left col-lg-6">
+                                        <span class="mx-3"><i class="fas fa-user-friends"></i></i> Huéspedes</span>
+                                        <div class="col">
+                                            <select class="form-control" name="person" id="person">
+                                                <option value="AL">1</option>
+                                                <option value="AK">2</option>
+                                                <option value="AZ">3</option>
+                                                <option value="AR">4</option>
+                                                <option value="CA">5</option>
+                                                <option value="CO">6</option>
+                                                <option value="CT">7</option>
+                                                <option value="DE">8</option>
+                                                <option value="DC">9</option>
+                                                <option value="FL">10</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="form-group text-left col-lg-6">
+                                        <span class="mx-3"><i class="fas fa-door-closed"></i></i> Entrada</span>
+                                        <div class="col">
+                                            <input id="date-entry" name="date" type="date" placeholder="Entrada"
+                                                class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group text-left col-lg-6">
+                                        <span class="mx-3"><i class="fas fa-door-open"></i></i> Salida</span>
+                                        <div class="col">
+                                            <input id="date-exit" name="date" type="date" placeholder="Salida"
+                                                class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group text-left">
+                                    <span class="mx-3"><i class="fa fa-pencil-square-o bigicon"></i> Comentario</span>
+                                    <div class="col">
+                                        <textarea class="form-control" id="message" name="message"
+                                            placeholder="Ingrese su masaje para nosotros aquí. Le responderemos a la brevedad (24hs)."
+                                            rows="7"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="form-group ">
+                                    <div class="col-md-12 text-center py-2">
+                                        <button type="submit" class="btn btn-outline-primary btn-sm">Enviar</button>
+                                        <button type="reset" class="btn btn-outline-danger btn-sm">Limpiar</button>
+                                    </div>
+                                    <div class="col-md-12 text-center py-2">
+                                        <button type="button" class="btn btn-outline-success btn-lg" data-toggle="modal"
+                                            data-target="#tarjeta">
+                                            Reservar
+                                        </button>
+                                    </div>
+                                </div>
+
+                    </div>
+                    </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="modal" tabindex="" id="tarjeta">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Medios de pago <i class="far fa-credit-card"></i></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span class="px-2 text-danger" aria-hidden="true">X</span>
+                        </button>
+                    </div>
+                    <form action="#" class="credit-card-div">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+
+                                <div class="row ">
+                                    <div class="col-md-12">
+                                        <input type="text" class="form-control"
+                                            placeholder="Ingrese el número de la tarjeta" />
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <div class="col-md-3 col-sm-3 col-xs-3">
+                                        <span class="help-block text-muted small-font"> Vencimiento mes</span>
+                                        <input type="month" class="form-control" placeholder="MM" />
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3">
+                                        <span class="help-block text-muted small-font"> Vencimiento año</span>
+                                        <input type="years" class="form-control" placeholder="AA" />
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3">
+                                        <span class="help-block text-muted small-font"> CCV</span>
+                                        <input type="text" class="form-control" placeholder="CCV" />
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-3">
+                                        <span class="help-block text-muted small-font"> Cuotas</span>
+                                        <select class="form-control" name="Cuotas" id="Cuotas">
+                                            <option value="AL">1</option>
+                                            <option value="AK">2</option>
+                                            <option value="AZ">3</option>
+                                            <option value="AR">4</option>
+                                            <option value="CA">5</option>
+                                            <option value="CO">6</option>
+                                            <option value="CT">7</option>
+                                            <option value="DE">8</option>
+                                            <option value="DC">9</option>
+                                            <option value="FL">10</option>
+                                            <option value="DC">11</option>
+                                            <option value="FL">12</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <div class="col-md-10 pad-adjust">
+
+                                        <input type="text" class="form-control" placeholder="Nombre en la Tarjeta" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 pad-adjust">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" checked class="text-muted"> Guardar los detalles
+                                                de su tarjeta.</a>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-md-6 col-sm-6 col-xs-6 pad-adjust">
+                                        <input type="submit" class="btn btn-outline-danger" data-dismiss="modal"
+                                            value="Cancelar" />
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 pad-adjust">
+                                        <input type="submit" class="btn btn-outline-success btn-block"
+                                            value="Aceptar" />
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <section class="container">
+            <div class="col-general my-4">
+                <section>
+                    <p class="card-design">Aceptamos <b><i class="fab fa-paypal"></i> <i class="fab fa-cc-visa"></i>
+                            <i class="fab fa-cc-mastercard"></i> <i class="fab fa-cc-amex"></i></b></p>
+                </section>
+            </div>
+        </section>
+        <section class="container">
+            <div class="row contactanos-item justify-content-around my-4">
+                <div class="col-md-3 m-3">
+                    <h3>Variedad personalizada</h3>
+                    <p> Ofrecemos una amplia variedad de tours y la adaptamos según el paquete seleccionado.</p>
+                </div>
+                <div class="col-md-3 m-3">
+                    <h3>Servicio calificado</h3>
+                    <p> Nuestros gerentes están calificados y capacitados para brindarle el mejor servicio.</p>
+                </div>
+                <div class="col-md-3  m-3">
+                    <h3>Soporte 24/7</h3>
+                    <p>Siempre puede obtener apoyo profesional de nuestro personal las 24 horas,
+                        los 7 días de la semana y hacer cualquier pregunta que tenga.</p>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid">
+            <img src="https://haciendadesanantonio.com/wp-content/uploads/2019/05/DHG_7295-2400x1600.jpg"
+                class="imgportada" alt="foto del parque de la hacienda">
+        </section>
+        <section class="container">
+            <article>
+                <h2 class="title-comunity header">COMUNIDAD</h2>
+                <p>Algunos testimonios de clientes que disfrutaron de la hacienda y sus servicios</p>
+            </article>
+        </section>
+        <section class="container text-left vertical_scroll ">
+            <ul class="list-unstyled scroll">
+                <li class="row media text-left item-comunity m-3">
+                    <div class="col-2">
+                        <img src="../IMG/comunity/cara-1.jpg" class="mr-3 img-comunity" alt="huésped">
+                    </div>
+                    <div class="col-10">
+                        <h5 class="mt-0 mb-1">Tienen que ir</h5>
+                        <p> <sup>Escribió una opinión el 02 de enero de 2020</sup> </p>
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                        <p>Una hacienda preciosa, un servicio extraordinario, cabalgatas, bicicletas, cuatrimotos,
+                            caminatas, comida de primer mundo, un lugar espectacular precioso, unos paisajes muy bonito,
+                            lo recomiendo ampliamente, es un lugar de 10.</p>
+                    </div>
+                </li>
+                <li class="row media text-left item-comunity m-3">
+                    <div class="col-2">
+                        <img src="../IMG/comunity/cara-2.jpg" class="mr-3 img-comunity" alt="huésped">
+                    </div>
+                    <div class="col-10">
+                        <h5 class="mt-0 mb-1">quedé enamorado</h5>
+                        <p> <sup>Escribió una opinión el 20 de enero de 2020</sup> </p>
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <i class="far fa-star"></i></p>
+                        <p class="espaciado-enter">-La atención es muy buena 
+                            -Los jardines son muy bonitos y en excelente estado
+                            -Es un lugar muy tranquilo ideal para descansar 
+                            -El cafe, el pan, las bebidas y la entrada excelente, el plato fuerte podria mejorar.</p>
+                    </div>
+                </li>
+                <li class="row media text-left item-comunity m-3">
+                    <div class="col-2">
+                        <img src="../IMG/comunity/cara-3.jpg" class="mr-3 img-comunity" alt="huésped">
+                    </div>
+                    <div class="col-10">
+                        <h5 class="mt-0 mb-1">Expectacular</h5>
+                        <p> <sup>Escribió una opinión el 10 de febrero de 2020</sup> </p>
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                        <p>Excelente hotel me siento como en las novelas de haciendas millonarios como la de amor real
+                            👌🔥👍</p>
+                    </div>
+                </li>
+                <li class="row media text-left item-comunity m-3">
+                    <div class="col-2">
+                        <img src="../IMG/comunity/cara-4.jpg" class="mr-3 img-comunity" alt="huésped">
+                    </div>
+                    <div class="col-10">
+                        <h5 class="mt-0 mb-1">Excelente y muy cómodo.</h5>
+                        <p> <sup>Escribió una opinión el 13 de abril de 2020</sup> </p>
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                        <p>Excelente hotel, nuevo, cómodo, muy limpio, impecable, con
+                            detalles
+                            de excelente gusto, clima tranquilo. La habitación es muy cómoda, y no tuvimos ningún
+                            inconveniente. Todo estaba en excelente estado.</p>
+                    </div>
+                </li>
+                <li class="row media text-left item-comunity m-3">
+                    <div class="col-2">
+                        <img src="../IMG/comunity/cara-5.jpg" class="mr-3 img-comunity" alt="huésped">
+                    </div>
+                    <div class="col-10">
+                        <h5 class="mt-0 mb-1">Muy buen hotel y atencion.</h5>
+                        <p> <sup>Escribió una opinión el 20 de julio de 2020</sup> </p>
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                        <p>Muy buen hotel y la atencion del personal es excelente, super
+                            recomendable. Desayuno muy bueno, y una gran variedad
+                            de platos tradicionales de México. No te alcanza el tiempo para recorrer todo el jardin que
+                            tienen.</p>
+                    </div>
+                </li>
+                <li class="row media text-left item-comunity m-3">
+                    <div class="col-2">
+                        <img src="../IMG/comunity/cara-6.jpg" class="mr-3 img-comunity" alt="huésped">
+                    </div>
+                    <div class="col-10">
+                        <h5 class="mt-0 mb-1">Muy lindo.</h5>
+                        <p> <sup>Escribió una opinión el 28 de febrero de 2021</sup> </p>
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                        <p>He estado hospedado recientemente y resultó ser mucho mejor de lo
+                            que
+                            esperaba. El edificio está impecable y las habitaciones nuevas y muy cómodas con una
+                            excelente
+                            vista.
+                            Su personal amable en todo momento.
+                            Si estás pensando en una estadia relajante esta es una excelente opción</p>
+                    </div>
+                </li>
+                <li class="row media text-left item-comunity m-3">
+                    <div class="col-2">
+                        <img src="../IMG/comunity/cara-7.jpg" class="mr-3 img-comunity" alt="huésped">
+                    </div>
+                    <div class="col-10">
+                        <h5 class="mt-0 mb-1">Es un paraíso</h5>
+                        <p> <sup>Escribió una opinión el 01 de marzo de 2021</sup> </p>
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                        <p>Que belleza que tengamos esto en México, no es barato pero definitivamente vale la pena
+                            experimentarlo!
+                            No tengo palabras para describir el maravilloso tiempo que pase en la Hacienda y también en
+                            su propiedad de Cuixmala.</p>
+                    </div>
+                </li>
+                <li class="row media text-left item-comunity m-3">
+                    <div class="col-2 ">
+                        <img src="../IMG/comunity/cara-8.jpg" class="mr-3 img-comunity" alt="huésped">
+                    </div>
+                    <div class="col-10 ">
+                        <h5 class="mt-0 mb-1">las mejores vacaciones</h5>
+                        <p> <sup>Escribió una opinión el 07 de marzo de 2021</sup> </p>
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                        <p>Muy bueno el lugar, la comida, el parque. hermosa la vista desde la terraza.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <div class="m-4">
+            <button type="button" class="btn btn btn-dark" data-toggle="modal" data-target="#opinion">
+                Escribir una opinión
+            </button>
+        </div>
+        <section>
+            <div class="modal fade" id="opinion" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Ingrese su opinión</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <form>
+                            <div class="row">
+                                <div class="col">
+                                    <img class="rounded align-self-center" src="../IMG/comunity/inserte.png" class="mr-3" alt="...">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-12 col-md-6">
+                                    <label for="recipient-name" class="col-form-label">Nombre:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group col-12 col-md-6">
+                                    <label for="recipient-name" class="col-form-label">Correo:</label>
+                                    <input name="email" type="text" class="form-control" id="recipient-name">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label">Comentario:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                            <div>
+                                <p class="clasificacion">
+                                    <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                                    --><label for="radio1">★</label><!--
+                                    --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                                    --><label for="radio2">★</label><!--
+                                    --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                                    --><label for="radio3">★</label><!--
+                                    --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                                    --><label for="radio4">★</label><!--
+                                    --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                                    --><label for="radio5">★</label>
+                                </p>
+                            </div>
+                        </form>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75823.36039156972!2d-103.6346864796885!3d19.485060578324934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842561433a6745d5%3A0x3d1d15205bfb4d16!2sVolc%C3%A1n%20de%20Colima!5e0!3m2!1ses-419!2sar!4v1613089138586!5m2!1ses-419!2sar"
+                width="80%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </section>
+        <div>
+            <p>– Contactos – </p>
+            <p>reservaciones@haciendadesanmiguel.com</p>
+        </div>
+        <div class="container-fluid" data-aos="fade-up">
+            <a href="galeria.html" class="block-index-link btn">GALERIA <i class="far fa-images"></i></a>
+            <a href="Contáctanos.html" class="block-index-link btn">RESERVAR <i class="fas fa-hand-pointer"></i> </a>
+        </div>
+    </main>
+    <footer>
+        <section class="container-fluid">
+            <div class="form-group row my-3" style="width: 20em;">
+                <span><i class="fa fa-envelope-o bigicon"></i><b>Newsletter</b></span>
+                    <input class="form-control col" id="email" name="email" type="text" required placeholder="ingrese su correo aquí">
+                    <input class="btn btn-outline-dark col-3" type="submit">
+            </div>
+        </section>
+        <div class="text-center">
+            <H6>SEGUINOS EN: </H6>
+            <div class="container-flex-footer">
+                <div class="menu">
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram iconInsta"
+                            data-aos="flip-up"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fab fa-twitter iconTwitter" data-aos="flip-up"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f iconFacebook"
+                            data-aos="flip-up"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fab fa-youtube iconYoutube" data-aos="flip-up"></i></a>
+                </div>
+            </div>
+            <div class="container-flex-footer">
+                <hr size="2em" width="20%">
+                <h6 class="h6-conectar">Conectar</h6>
+                <hr size="2em" width="20%">
+            </div>
+            <h6>© 2021 Hacienda San Miguel. Reservados todos los derechos.</h6>
+        </div>
+        <!-- AOS animation -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <!-- Option 2: Separate Popper and Bootstrap JS 4.6-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+            integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+        </script>
+    </footer>
+</body>
+
+</html>

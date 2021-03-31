@@ -1,0 +1,21 @@
+.float {
+	position: fixed;
+	width: 2em;
+	height: 2em;
+	bottom: 1em;
+	right: 1em;
+	background-color: #25d366;
+	color: #FFF;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 2em;
+	box-shadow: 2px 2px 3px #999;
+	z-index: 100;
+}
+.my-float {
+	margin-top: .5em;
+}
+.iconWhatsapp {
+	color: green;
+	font-size: 4em;
+}
