@@ -1,11 +1,6 @@
 @charset "UTF-8";
 /*nth($colores-principales, 2)*/
-.iconYoutube, .iconFacebook, .iconTwitter, .iconInsta {
-  font-size: 3em;
-  text-shadow: black 0.05em 0em;
-}
-
-/* @extend %icon-footer;*/
+/* @extend %block-link-principales;*/
 .block-index-Mas-Info, .block-index-link {
   font-size: 1.5em !important;
   display: inline-block !important;
@@ -381,12 +376,7 @@ hr {
   }
 }
 /*nth($colores-principales, 2)*/
-.iconYoutube, .iconFacebook, .iconTwitter, .iconInsta {
-  font-size: 3em;
-  text-shadow: black 0.05em 0em;
-}
-
-/* @extend %icon-footer;*/
+/* @extend %block-link-principales;*/
 .block-index-link, .block-index-Mas-Info {
   font-size: 1.5em !important;
   display: inline-block !important;
@@ -427,12 +417,7 @@ hr {
 }
 
 /*nth($colores-principales, 2)*/
-.iconYoutube, .iconFacebook, .iconTwitter, .iconInsta {
-  font-size: 3em;
-  text-shadow: black 0.05em 0em;
-}
-
-/* @extend %icon-footer;*/
+/* @extend %block-link-principales;*/
 .block-index-link, .block-index-Mas-Info {
   font-size: 1.5em !important;
   display: inline-block !important;
@@ -444,7 +429,7 @@ hr {
 }
 
 footer {
-  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), #aa7658);
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), #835b44);
 }
 
 .container-flex-footer {
@@ -460,24 +445,8 @@ footer {
 }
 @media (max-width: 600px) {
   .menu {
-    width: 250px;
+    width: 300px;
   }
-}
-
-.iconInsta {
-  color: tomato;
-}
-
-.iconTwitter {
-  color: #5bd0f7;
-}
-
-.iconFacebook {
-  color: blue;
-}
-
-.iconYoutube {
-  color: red;
 }
 
 .h6-conectar {
@@ -486,12 +455,7 @@ footer {
 }
 
 /*nth($colores-principales, 2)*/
-.iconInsta, .iconTwitter, .iconFacebook, .iconYoutube {
-  font-size: 3em;
-  text-shadow: black 0.05em 0em;
-}
-
-/* @extend %icon-footer;*/
+/* @extend %block-link-principales;*/
 .block-index-link, .block-index-Mas-Info {
   font-size: 1.5em !important;
   display: inline-block !important;
@@ -602,12 +566,7 @@ footer {
   font-size: 4em;
 }
 
-.iconInsta, .iconTwitter, .iconFacebook, .iconYoutube {
-  font-size: 3em;
-  text-shadow: black 0.05em 0em;
-}
-
-/* @extend %icon-footer;*/
+/* @extend %block-link-principales;*/
 .block-index-link, .block-index-Mas-Info {
   font-size: 1.5em !important;
   display: inline-block !important;
@@ -714,12 +673,7 @@ input[type=radio]:checked ~ label {
 }
 
 /*nth($colores-principales, 2)*/
-.iconInsta, .iconTwitter, .iconFacebook, .iconYoutube {
-  font-size: 3em;
-  text-shadow: black 0.05em 0em;
-}
-
-/* @extend %icon-footer;*/
+/* @extend %block-link-principales;*/
 .block-index-link, .block-index-Mas-Info {
   font-size: 1.5em !important;
   display: inline-block !important;

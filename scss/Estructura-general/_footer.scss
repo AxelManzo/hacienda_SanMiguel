@@ -16,25 +16,10 @@ footer {
 	justify-content: space-between;
 
     @media (max-width: 600px){
-        width: 250px;
+        width: 300px;
     }
 }
-.iconInsta {
-	@extend %icon-footer;
-	color: tomato;
-}
-.iconTwitter {
-	@extend %icon-footer;
-	color: rgb(91, 208, 247);
-}
-.iconFacebook {
-	@extend %icon-footer;
-	color: blue;
-}
-.iconYoutube {
-	@extend %icon-footer;
-	color: red;
-}
+
 .h6-conectar {
 	position: relative;
 	margin: auto 0;
