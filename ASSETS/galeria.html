@@ -73,20 +73,20 @@
             <div class="collapse navbar-collapse  index-menu" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-5">
                     <li class="nav-item active px-3">
-                        <a class="nav-link" href="../index.html"><i class="fas fa-home"></i> Inicio <span
-                                class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="../index.html"><i class="fas fa-home"></i> Inicio</a>
                     </li>
                     <li class="nav-item dropdown px-3">
-                        <a class="nav-link dropdown-toggle" href="galeria.html" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="#collapseExample" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
-                                class="fas fa-camera"></i></i> Multimedia
+                                class="fas fa-camera"></i></i>
+                            Multimedia
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" id='collapseExample'>
                             <a class="dropdown-item" href="galeria.html"><i class="far fa-images"></i> Galeria</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="COMIDA.html"><i class="fas fa-utensils"></i> Comida</i></a>
                             <a class="dropdown-item" href="recreacion.html"><i class="fas fa-child"></i> Recreación</a>
-                            <a class="dropdown-item" href="#suites"><i class="fas fa-bed"></i>
+                            <a class="dropdown-item" href="galeria.html#suites"><i class="fas fa-bed"></i>
                                 Habitaciones</a>
                         </div>
                     </li>
@@ -115,7 +115,7 @@
                     <h2 class="sub animate__animated animate__fadeInUp animate__delay-1s ">Para que te escapes de todo
                     </h2>
                 </div>
-                <img src="../IMG/img-portada/galeria-1.jpg" class="imgportada"
+                <img src="../IMG/img-portada/galeria-1.jpg" class="imgportada opacity-image"
                     alt="vista de la hacienda desde arriba, rodeado de arboles">
             </div>
         </section>
@@ -147,13 +147,13 @@
             </div>
         </section>
         <div class="container">
-            <h4 class="Appear-Block my-4">"La vista
+            <h5 class="Appear-Block my-4">"La vista
                 de un volcán vivo que sobresale verde sobre los exquisitos terrenos y
                 jardines de la Hacienda de San Antonio de color rosa pálido,
                 un personal increíblemente amable y minucioso, comida deliciosa cultivada localmente e
                 interiores
                 perfectamente decorados".
-                <span class="fontItalic">-Salidas: Experiencias más memorables en hoteles de lujo.</span></h4>
+                <span class="fontItalic">-Salidas: Experiencias más memorables en hoteles de lujo.</span></h5>
         </div>
         <hr>
         <section class="row p-2 justify-content-center">
@@ -178,7 +178,7 @@
                         Tanto los <b>Paseos en
                             globo aerostático, paracaidismo, quads, paseos a caballo</b> y mucho más, todos tienen lugar
                         dentro del Rancho Jabali.</p>
-                    <a href="recreacion.html" class="link_descubrirMas btn">DESCUBRIR MÁS</a>
+                    <a href="recreacion.html#aventura" class="link_descubrirMas btn">DESCUBRIR MÁS</a>
                 </div>
             </div>
             <div class="card block col-md-4" style="width: 21rem;">
@@ -192,7 +192,7 @@
                         o disfrutar de una <b>clase de bienestar privada</b>. Se han trazado rutas para caminar y
                         trotar
                         directamente desde la Hacienda.</p>
-                    <a href="recreacion.html" class="link_descubrirMas btn">DESCUBRIR MÁS</a>
+                    <a href="recreacion.html#relax" class="link_descubrirMas btn">DESCUBRIR MÁS</a>
                 </div>
             </div>
         </section>
@@ -200,33 +200,35 @@
         <div class="container">
             <div class="row">
                 <section class="position-relative col-lg-6">
-                    <h3 class="title-suites shadow-lg">SUITES</h3>
+                    <h3 class="title-suites shadow-lg" data-aos="fade-right">SUITES</h3>
                     <img src="https://haciendadesanantonio.com/wp-content/uploads/2020/09/SUMMARY_SUITES.jpg"
                         data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="imgsuites border-top-img"
                         alt="vista central de una Suite">
                     <div class="design-p-suites">
                         <p>Las 22 suites invitan al exterior con <b>vistas al río, al volcán o al jardín</b>, que se
                             disfrutan mejor desde sus terrazas y balcones privados.</p>
-                        <a href="" class="link_descubrirMas btn">DESCUBRIR MÁS</a>
+                        <a href="" class="link_descubrirMas btn mb-3">DESCUBRIR MÁS</a>
                     </div>
                 </section>
                 <section class="position-relative col-lg-6">
-                    <h3 class="title-suites">GRAND SUITES</h3>
+                    <h3 class="title-suites shadow-lg" data-aos="fade-left">GRAND SUITES</h3>
                     <img src="https://haciendadesanantonio.com/wp-content/uploads/2020/09/SUMMARY_GS-EL-QUETZAL.jpg"
                         data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="imgsuites border-top-img"
                         alt="vista central de una Grand Suites">
                     <div class="design-p-suites">
                         <p>Las tres Grand Suites son <b>homenajes a una época pasada del diseño
                                 mexicano</b>, con una sala de estar y dos chimeneas a leña.</p>
-                        <a href="" class="link_descubrirMas btn">DESCUBRIR MÁS</a>
+                        <a href="" class="link_descubrirMas btn mb-3">DESCUBRIR MÁS</a>
                     </div>
                 </section>
             </div>
         </div>
         <hr>
         <section class="container-fluid">
-            <h4>OBTENGA MÁS INFORMACIÓN SOBRE NUESTRA </h4>
+            <div class="bg-light mb-0">
+                <h4>OBTENGA MÁS INFORMACIÓN SOBRE NUESTRA </h4>
             <h4>NUEVA PROPIEDAD HERMANA-CUIXMALA</h4>
+            </div>
             <div class="position-relative">
                 <img src="https://haciendadesanantonio.com/wp-content/uploads/2020/09/PACKAGE-PROMO-VOLCANO-OCEAN-1-2400x946.jpg"
                     class="imgportada" alt="Nueva propiedad CUIXMALA">
@@ -245,16 +247,14 @@
         </section>
         <div class="container">
             <h4 class="Appear-Block my-4">Planifique un viaje entre lo
-                mejor de la costa del Pacífico de México y las
-                exuberantes tierras altas.
+                mejor de la costa del Pacífico de México y las exuberantes tierras altas.
                 Experimente dos facetas distintas de la cultura mexicana en Hacienda de San Antonio y
-                nuestra
-                propiedad hermana, Cuixmala.</p>
+                nuestra propiedad hermana, Cuixmala.</p>
                 <a href="" class="link_descubrirMas btn">DESCUBRIR MÁS</a></span></h4>
         </div>
         <div class="container-fluid" data-aos="fade-up">
-            <a href="galeria.html" class="block-index-link btn">GALERIA <i class="far fa-images"></i></a>
-            <a href="reservas.html" class="block-index-link btn">RESERVAR <i class="fas fa-hand-pointer"></i> </a>
+            <a href="galeria.html" class="block-index-link btn">Galeria <i class="far fa-images"></i></a>
+            <a href="reservas.html" class="block-index-link btn">Reservar <i class="fas fa-hand-pointer"></i> </a>
         </div>
     </main>
     <footer>
@@ -263,7 +263,7 @@
                 <span><i class="fa fa-envelope-o bigicon"></i><b>Newsletter</b></span>
                 <input class="form-control col" id="email" name="email" type="text" required
                     placeholder="ingrese su correo aquí">
-                <input class="btn btn-outline-dark col-3" type="submit">
+                <input class="btn btn-dark col-3" type="submit">
             </div>
         </section>
         <section class="container-fluid">

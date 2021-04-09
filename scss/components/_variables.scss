@@ -3,3 +3,11 @@
 //     background-color: $bg-ejemplo;
 // }
 $bg-footer:  linear-gradient(to bottom, rgba(255, 0, 0, 0), #835b44);
+
+$sombreado-sub: -0.1em 0 0.1em black, 0.1em 0 0.1em black, 0 0.05em 0.1em black, 0 -0.05em 0.1em black;
+
+$sombreado-title: .1em 0 .1em black, 0 .1em .1em black;
+
+$navbar-degrade: linear-gradient( rgb(0, 0, 0), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8),rgba(64, 58, 54, 0.7));
+
+$sombreado-terciario: .01em 0 .01em black, 0 .01em .1em black;

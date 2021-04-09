@@ -24,12 +24,12 @@
 	font-size: 3em;
 	background-color: transparent;
 	color: white;
-	text-shadow: .1em 0 .1em black, 0 .1em .1em black;
+	text-shadow: $sombreado-title;
 	margin: .0em;
 	transition: all .5s;
 	font-size: 4vw;
     
-    @media (max-width: 400px){
+    @media (max-width: 600px){
         font-size: 6vw;
     }
 }
@@ -37,11 +37,12 @@
 	font-family: 'Cormorant Unicase', serif;
 	font-size: 5vw;
 	color: #DE927A;
-	text-shadow: -.1em 0 .1em black, .1em 0 .1em black, 0 .05em .1em black, 0 -.05em .1em black;
+	text-shadow: $sombreado-sub ;
 	font-weight: bold;
 	transition: all .5s;
+	filter: drop-shadow(2px 4px 6px black);
 
-    @media (max-width: 400px){
+    @media (max-width: 600px){
         font-size: 6vw;
     }
 }
@@ -59,7 +60,7 @@
 	background-image: radial-gradient(circle, rgb(100 100 100 / 50%) 5%, transparent 70%);
 	transition: all .5s ease;
 	width: 16vw;
-    @media (max-width: 400px){
+    @media (max-width: 600px){
         width: 20vw;
     }
 }

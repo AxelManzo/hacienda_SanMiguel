@@ -10,7 +10,8 @@
 	width: 2em;
 }
 .bg-dark-transparent {
-	background: linear-gradient( black, rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.80),rgba(64, 58, 54, 0.6));
+	background: $navbar-degrade;
+	font-weight:bold;
 }
 .nav-link {
 	&:hover {

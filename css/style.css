@@ -2,10 +2,10 @@
 /*nth($colores-principales, 2)*/
 /* @extend %block-link-principales;*/
 .block-index-Mas-Info, .block-index-link {
-  font-size: 1.5em !important;
+  font-size: 1.3em !important;
   display: inline-block !important;
   border: 1px solid black !important;
-  border-radius: 0.4em !important;
+  border-radius: 0.3em !important;
   padding: 0 0.5em !important;
   transition: background-color 0.5s !important;
   margin: 0.5em 1em;
@@ -35,6 +35,10 @@ img {
   transition: 0.5s;
 }
 
+.opacity-image {
+  filter: opacity(0.9);
+}
+
 .text-left {
   text-align: left !important;
 }
@@ -59,7 +63,7 @@ h1 h2 h3 h4 {
 }
 @media (max-width: 400px) {
   .title-section-secondary {
-    font-size: 6vw;
+    font-size: 4vw;
   }
 }
 
@@ -111,7 +115,7 @@ h1 h2 h3 h4 {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
 }
-@media (max-width: 1220px) {
+@media (max-width: 1100px) {
   .block-design-inicio {
     display: none;
   }
@@ -141,7 +145,7 @@ h1 h2 h3 h4 {
   width: 60%;
   top: 15%;
 }
-@media (max-width: 1220px) {
+@media (max-width: 1100px) {
   .measurement {
     display: none;
   }
@@ -241,20 +245,21 @@ h1 h2 h3 h4 {
 }
 
 .design-p-suites {
-  background-color: #f5b893;
+  background-color: #f5b993af;
   border-bottom-left-radius: 2em;
   border-bottom-right-radius: 2em;
 }
 
 .contactanos-item div {
-  background-color: #869BB3;
+  background-color: #869bb3b6;
   border-radius: 0.5em;
   border: 1px solid;
   transition: 1s;
 }
 .contactanos-item div:hover {
-  background-color: #CCFFE2;
+  background-color: #ccffe2b7;
   font-size: 1.1em;
+  padding: 0 !important;
 }
 
 .imgsuites {
@@ -291,13 +296,13 @@ hr {
 }
 @media (max-width: 400px) {
   .titlesection {
-    font-size: 6vw;
+    font-size: 4vw;
   }
 }
 
 .card-design {
   font-size: 2em;
-  background-color: #f5b893;
+  background-color: #f5b993af;
   border-radius: 1em;
   border: 1px solid;
   display: inline-block;
@@ -315,7 +320,7 @@ hr {
 }
 
 .p-comida-1-3 {
-  background-color: #f5b893;
+  background-color: #f5b993af;
   font-size: larger;
   padding: auto 1em;
 }
@@ -336,7 +341,7 @@ hr {
   display: none;
   transition: 1.5s;
 }
-@media (max-width: 1220px) {
+@media (max-width: 1100px) {
   .Appear-Block {
     display: block;
   }
@@ -370,7 +375,7 @@ hr {
   overflow: auto;
 }
 
-@media (max-width: 1220px) {
+@media (max-width: 1100px) {
   .link-home-disabled {
     display: none;
   }
@@ -378,10 +383,10 @@ hr {
 /*nth($colores-principales, 2)*/
 /* @extend %block-link-principales;*/
 .block-index-link, .block-index-Mas-Info {
-  font-size: 1.5em !important;
+  font-size: 1.3em !important;
   display: inline-block !important;
   border: 1px solid black !important;
-  border-radius: 0.4em !important;
+  border-radius: 0.3em !important;
   padding: 0 0.5em !important;
   transition: background-color 0.5s !important;
   margin: 0.5em 1em;
@@ -396,7 +401,8 @@ hr {
 }
 
 .bg-dark-transparent {
-  background: linear-gradient(black, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8), rgba(64, 58, 54, 0.6));
+  background: linear-gradient(black, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8), rgba(64, 58, 54, 0.7));
+  font-weight: bold;
 }
 
 .nav-link:hover {
@@ -419,10 +425,10 @@ hr {
 /*nth($colores-principales, 2)*/
 /* @extend %block-link-principales;*/
 .block-index-link, .block-index-Mas-Info {
-  font-size: 1.5em !important;
+  font-size: 1.3em !important;
   display: inline-block !important;
   border: 1px solid black !important;
-  border-radius: 0.4em !important;
+  border-radius: 0.3em !important;
   padding: 0 0.5em !important;
   transition: background-color 0.5s !important;
   margin: 0.5em 1em;
@@ -457,10 +463,10 @@ footer {
 /*nth($colores-principales, 2)*/
 /* @extend %block-link-principales;*/
 .block-index-link, .block-index-Mas-Info {
-  font-size: 1.5em !important;
+  font-size: 1.3em !important;
   display: inline-block !important;
   border: 1px solid black !important;
-  border-radius: 0.4em !important;
+  border-radius: 0.3em !important;
   padding: 0 0.5em !important;
   transition: background-color 0.5s !important;
   margin: 0.5em 1em;
@@ -499,7 +505,7 @@ footer {
   transition: all 0.5s;
   font-size: 4vw;
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .title1 {
     font-size: 6vw;
   }
@@ -512,8 +518,9 @@ footer {
   text-shadow: -0.1em 0 0.1em black, 0.1em 0 0.1em black, 0 0.05em 0.1em black, 0 -0.05em 0.1em black;
   font-weight: bold;
   transition: all 0.5s;
+  filter: drop-shadow(2px 4px 6px black);
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .sub {
     font-size: 6vw;
   }
@@ -536,7 +543,7 @@ footer {
   transition: all 0.5s ease;
   width: 16vw;
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .logoCentral {
     width: 20vw;
   }
@@ -568,10 +575,10 @@ footer {
 
 /* @extend %block-link-principales;*/
 .block-index-link, .block-index-Mas-Info {
-  font-size: 1.5em !important;
+  font-size: 1.3em !important;
   display: inline-block !important;
   border: 1px solid black !important;
-  border-radius: 0.4em !important;
+  border-radius: 0.3em !important;
   padding: 0 0.5em !important;
   transition: background-color 0.5s !important;
   margin: 0.5em 1em;
@@ -623,7 +630,6 @@ input:focus {
 /*formulario contacto*/
 .header {
   font-family: "Nunito", sans-serif;
-  font-size: 2em;
   padding: 10px;
   text-shadow: 0.01em 0 0.01em black, 0 0.01em 0.1em black;
 }
@@ -675,10 +681,10 @@ input[type=radio]:checked ~ label {
 /*nth($colores-principales, 2)*/
 /* @extend %block-link-principales;*/
 .block-index-link, .block-index-Mas-Info {
-  font-size: 1.5em !important;
+  font-size: 1.3em !important;
   display: inline-block !important;
   border: 1px solid black !important;
-  border-radius: 0.4em !important;
+  border-radius: 0.3em !important;
   padding: 0 0.5em !important;
   transition: background-color 0.5s !important;
   margin: 0.5em 1em;

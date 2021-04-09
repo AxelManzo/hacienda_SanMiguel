@@ -51,9 +51,8 @@ input {
 /*formulario contacto*/
 .header {
 	font-family: 'Nunito', sans-serif;
-	font-size: 2em;
 	padding: 10px;
-	text-shadow: .01em 0 .01em black, 0 .01em .1em black;
+	text-shadow: $sombreado-terciario ;
 }
 
 .bg-blue-light {
