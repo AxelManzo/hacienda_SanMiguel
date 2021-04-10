@@ -16,7 +16,7 @@ footer {
 	justify-content: space-between;
 
     @media (max-width: 600px){
-        width: 320px;
+        width: 290px;
     }
 }
 
@@ -24,4 +24,10 @@ footer {
 .h6-conectar {
 	position: relative;
 	margin: auto 0;
+}
+.redes-movil{
+	@media (max-width:600px) {
+		width: 40px;
+		height: auto;
+	}
 }

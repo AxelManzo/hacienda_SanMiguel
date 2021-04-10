@@ -451,13 +451,20 @@ footer {
 }
 @media (max-width: 600px) {
   .menu {
-    width: 320px;
+    width: 290px;
   }
 }
 
 .h6-conectar {
   position: relative;
   margin: auto 0;
+}
+
+@media (max-width: 600px) {
+  .redes-movil {
+    width: 40px;
+    height: auto;
+  }
 }
 
 /*nth($colores-principales, 2)*/
@@ -734,6 +741,11 @@ body::-webkit-scrollbar-thumb, .scroll::-webkit-scrollbar-thumb {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
