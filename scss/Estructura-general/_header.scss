@@ -16,7 +16,6 @@
 .nav-link {
 	&:hover {
 		color: nth($colores-principales , 2 ) !important;
-		text-decoration: line-through nth($colores-principales , 2 ) !important;
 	}
 }
 .navbar-brand {

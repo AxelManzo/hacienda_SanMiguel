@@ -11,7 +11,7 @@ footer {
 	margin: 1em;
 }
 .menu {
-	width: 400px;
+	width: 350px;
 	display: flex;
 	justify-content: space-between;
 
@@ -24,10 +24,4 @@ footer {
 .h6-conectar {
 	position: relative;
 	margin: auto 0;
-}
-.redes-movil{
-	@media (max-width:600px) {
-		width: 40px;
-		height: auto;
-	}
 }

@@ -22,7 +22,7 @@ p {
 
 body {
   font-family: "Nunito", sans-serif;
-  background-color: #FFE7D9 !important;
+  background-color: #ffebe0 !important;
 }
 
 .diseño-flecha-carrousel {
@@ -154,7 +154,7 @@ h1 h2 h3 h4 {
 .link_descubrirMas {
   border-radius: 1em !important;
   border: double black !important;
-  background-color: #FFE7D9 !important;
+  background-color: #ffebe0 !important;
   transition: background-color 0.5s !important;
 }
 .link_descubrirMas:hover {
@@ -353,12 +353,12 @@ hr {
 
 .img-comunity {
   position: relative;
-  width: 11vw;
+  width: 9vw;
   border-radius: 10em;
 }
 
 .item-comunity {
-  background: linear-gradient(to bottom right, #FFE7D9, #F5A97A);
+  background: linear-gradient(to bottom right, #bfcdc88f, #5B685F);
   border-radius: 1em;
   border: 1px solid black;
 }
@@ -407,7 +407,6 @@ hr {
 
 .nav-link:hover {
   color: #ffc6a6 !important;
-  text-decoration: line-through #ffc6a6 !important;
 }
 
 .navbar-brand {
@@ -445,7 +444,7 @@ footer {
 }
 
 .menu {
-  width: 400px;
+  width: 350px;
   display: flex;
   justify-content: space-between;
 }
@@ -458,13 +457,6 @@ footer {
 .h6-conectar {
   position: relative;
   margin: auto 0;
-}
-
-@media (max-width: 600px) {
-  .redes-movil {
-    width: 40px;
-    height: auto;
-  }
 }
 
 /*nth($colores-principales, 2)*/
@@ -674,7 +666,6 @@ label {
 
 .clasificacion {
   direction: rtl;
-  unicode-bidi: bidi-override;
 }
 
 p input label :hover {

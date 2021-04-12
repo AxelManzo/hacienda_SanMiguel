@@ -294,11 +294,11 @@ hr {
 }
 .img-comunity {
 	position: relative;
-	width: 11vw;
+	width: 9vw;
 	border-radius: 10em;
 }
 .item-comunity {
-	background: linear-gradient(to bottom right, nth($colores-principales , 1), nth($colores-principales , 4));
+	background: linear-gradient(to bottom right, nth($colors-comunity , 1), nth($colors-comunity , 2));
 	border-radius: 1em;
 	border: 1px solid black;
 }
