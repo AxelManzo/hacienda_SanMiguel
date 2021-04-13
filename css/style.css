@@ -358,7 +358,7 @@ hr {
 }
 
 .item-comunity {
-  background: linear-gradient(to bottom right, #bfcdc88f, #5B685F);
+  background: linear-gradient(to bottom right, #bfcdc8dc, #76887bcb);
   border-radius: 1em;
   border: 1px solid black;
 }
@@ -664,10 +664,6 @@ label {
   color: grey;
 }
 
-.clasificacion {
-  direction: rtl;
-}
-
 p input label :hover {
   color: orange;
 }
@@ -711,17 +707,13 @@ body::-webkit-scrollbar-track, .scroll::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb, .scroll::-webkit-scrollbar-thumb {
   background-color: var(--thumbBG);
-  border-radius: 6px;
-  border: 3px solid var(--scrollbarBG);
+  border-radius: 10px;
+  border: 10px solid var(--scrollbarBG);
 }
 
 ::-webkit-scrollbar {
   width: 0px;
   background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #6b005d;
 }
 
 ::-webkit-scrollbar-thumb:hover {
