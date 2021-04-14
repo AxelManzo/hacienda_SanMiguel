@@ -685,7 +685,6 @@ input[type=radio]:checked ~ label {
 }
 
 html, .scroll {
-  overflow: scroll;
   overflow-x: hidden;
   scroll-behavior: smooth;
   --scrollbarBG: #CFD8DC;
@@ -693,6 +692,18 @@ html, .scroll {
 }
 
 body::-webkit-scrollbar, .scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-moz-scrollbar, .scroll::-moz-scrollbar {
+  width: 10px;
+}
+
+body::-o-scrollbar, .scroll::-o-scrollbar {
+  width: 10px;
+}
+
+body::-ms-scrollbar, .scroll::-ms-scrollbar {
   width: 10px;
 }
 
@@ -705,18 +716,55 @@ body::-webkit-scrollbar-track, .scroll::-webkit-scrollbar-track {
   background: var(--scrollbarBG);
 }
 
-body::-webkit-scrollbar-thumb, .scroll::-webkit-scrollbar-thumb {
-  background-color: var(--thumbBG);
-  border-radius: 10px;
-  border: 10px solid var(--scrollbarBG);
+body::-moz-scrollbar-track, .scroll::-moz-scrollbar-track {
+  background: var(--scrollbarBG);
 }
 
-::-webkit-scrollbar {
-  width: 0px;
-  background: transparent;
+body::-o-scrollbar-track, .scroll::-o-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+
+body::-ms-scrollbar-track, .scroll::-ms-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-thumb, .scroll::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+body::-moz-scrollbar-thumb, .scroll::-moz-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+body::-o-scrollbar-thumb, .scroll::-o-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+body::-ms-scrollbar-thumb, .scroll::-ms-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 5px;
+  border: 1px solid black;
 }
 
 ::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+
+::-moz-scrollbar-thumb:hover {
+  background: black;
+}
+
+::-o-scrollbar-thumb:hover {
+  background: black;
+}
+
+::-ms-scrollbar-thumb:hover {
   background: black;
 }
 
@@ -728,7 +776,6 @@ body::-webkit-scrollbar-thumb, .scroll::-webkit-scrollbar-thumb {
 
 html, body {
   max-width: 100%;
-  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
